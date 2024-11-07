@@ -12,17 +12,16 @@ body, html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0px;
-  background: rgba(128, 128, 128, 0.8); /* Glassy grey effect */
-  backdrop-filter: blur(10px); /* Frosted glass effect */
+  padding: 40px 0;
+  background-color: #131116; /* Black background for the navbar */
   color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   width: 100%;
-  position: fixed; /* Keep the navbar at the top */
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000; /* Ensures navbar stays above content */
+  z-index: 1000;
 }
 
 .navbar-left, .navbar-right, .navbar-center {
@@ -31,44 +30,51 @@ body, html {
 }
 
 .logo {
-  width: 40px; /* Adjust size as needed */
-  height: 40px;
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
 }
 
 .navbar-center {
   flex-grow: 1;
-  align-content: center;
+  display: flex;
   justify-content: center;
-  padding: 0px 10px;
+  margin-left: 85px;
 }
 
 .name {
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: bold;
-  font-family: 'Times New Roman', Times, serif; /* Adds a classic look */
-  color: #ffd700; /* Royal gold color */
+  font-family: 'Pacifico', cursive;
+  color: #ffd700;
+  margin: 0;
 }
 
 .navbar-right {
-  gap: 29px;
-  padding: 0px 17px;
+  gap: 20px;
+  padding-right: 20px;
 }
 
 .nav-link {
-  color: #fff;
+  color: #fff; /* White color for links */
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.2em;
   transition: color 0.3s;
 }
 
 .nav-link:hover {
-  color: #ffd700; /* Gold color for hover effect */
+  color: #ffd700; /* Gold color on hover */
 }
 
-/* Ensuring full-width content */
+.active-link {
+  color: #ffd700; /* Gold color for active link */
+  font-weight: bold; /* Make active link bold */
+}
+
+/* Full-width content area below the navbar */
 .content {
-  padding-top: 80px; /* Offset for fixed navbar */
+  padding-top: 120px; /* Offset for the fixed navbar */
   width: 100%;
   height: 100vh;
-  background-color: #f5f5f5; /* Light background for content */
+  background-color: #f5f5f5;
 }
