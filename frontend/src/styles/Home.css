@@ -16,97 +16,73 @@ body, html {
     margin: 0;
   }
   
-  /* Glassy container styling for the hero section */
+  /* Glassy container styling for hero section (for h1 and p together) */
   .hero .blur-container {
-    background: rgba(255, 255, 255, 0.2); /* Light translucent background */
+    background: rgba(255, 255, 255, 0.045); /* Light translucent background */
     padding: 20px;
     border-radius: 10px;
     backdrop-filter: blur(10px); /* Frosted glass effect */
-    max-width: 60%; /* Limit width for a left-aligned look */
-    margin-right: auto; /* Aligns the container to the left */
+    flex: 1; /* Allow container to take available space */
+    margin: 0; /* Remove margin to bring closer to image */
   }
   
-  /* Centered blurred container for h2 */
-  .centered-blur-container {
-    background: rgba(255, 255, 255, 0.2); /* Light translucent background */
-    padding: 15px 30px;
-    border-radius: 10px;
-    backdrop-filter: blur(10px); /* Frosted glass effect */
-    max-width: 80%; /* Constrain width */
-    margin: 20px auto; /* Center-aligns the container */
-    text-align: center;
-  }
-  
-  /* General style for paragraphs */
-  p {
-    font-size: 1.1em;
-    line-height: 1.6;
-    color: #c26c10;
-    margin: 10px 0;
-  }
-  
-  /* Hero section styling */
+  /* Hero section general styling */
   .hero {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
     height: 100vh;
-    padding: 50px;
+    padding: 0 20px; /* Minimize padding for closer alignment */
+    gap: 10px; /* Minimal gap between container and image */
     color: #fff;
   }
   
-  /* Hero text styling */
+  /* Specific h1 styling in hero section */
   .hero-content h1 {
     font-size: 2.75em;
     font-weight: bold;
-    color: #69cd8f;
+    color: #ffd700; /* Change text color to yellow */
+    align-self: center;
+    text-align: center; /* Center the text */
+    font-family: 'Pacifico', cursive; /* Replace 'YourNavBarFont' with the actual font-family name from the navbar */
+  }
+
+  .hero-content h2 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: white; /* Change text color to yellow */
+    align-self: center;
+    text-align: center; /* Center the text */
+    font-family: 'Pacifico', cursive; /* Replace 'YourNavBarFont' with the actual font-family name from the navbar */
   }
   
+  /* Specific p styling in hero section */
   .hero-content p {
     font-size: 1.1em;
     color: #f5f5f5;
     line-height: 1.5;
   }
   
-  /* Align hero image to the right */
+  /* Ensure hero image is tightly aligned to the right of text container */
   .hero-image {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
   }
   
   .hero-image img {
-    width: 400px;
+    width: 490px; /* Adjust width to fit better */
     height: auto;
     border-radius: 10px;
-    margin-left: 20px; /* Space between the image and the text container */
+    margin-left: 0; /* Remove margin for tight alignment */
   }
   
-  /* About and Projects section styling without background */
-  .about, .projects {
-    padding: 50px;
-  }
   
-  .about .text-container,
-  .projects .text-container {
-    background: none; /* No background for containers after the hero section */
-  }
-  
-  /* Footer styling */
-  .footer {
-    background-image: url('../navbar.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: #fff;
-  }
-  
-  .footer a {
-    color: #ffd700;
-    text-decoration: none;
-  }
-  
-  .footer a:hover {
-    text-decoration: underline;
+  /* Styling for general paragraphs */
+  p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #c26c10;
+    margin: 10px 0;
   }
   
