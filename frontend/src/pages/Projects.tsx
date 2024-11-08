@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Contact.css';
 
-const Contact: React.FC = () => {
+const Projects: React.FC = () => {
   return (
     <div className="contact-container">
       <h1>Contact Me</h1>
@@ -22,4 +22,4 @@ const Contact: React.FC = () => {
   );
 };
 
-export default Contact;
+export default Projects;
