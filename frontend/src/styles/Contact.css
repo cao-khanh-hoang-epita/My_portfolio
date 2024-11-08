@@ -1,20 +1,60 @@
-/* src/pages/Contact.css */
+/* src/styles/Contact.css */
 
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Full-page background wrapper */
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../bg4.jpg'); /* Use absolute path if image is in public folder */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Main container for contact information */
 .contact-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    height: 100vh;
-    background-color: #f9f9f9;
-  }
-  
-  .contact-container h1 {
-    margin-bottom: 20px;
-  }
-  
-  .contact-container p {
-    margin: 5px 0;
-  }
-  
+  max-width: 800px;
+  padding: 2px;
+  background: rgba(223, 218, 218, 0.505); /* Light translucent background for glass effect */
+  backdrop-filter: blur(10px); /* Frosted glass effect */
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #fff;
+}
+
+/* Styling for the h1 heading */
+.contact-container h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #cb5a14;
+  margin-bottom: 20px;
+  font-family: 'Merriweather', serif;
+}
+
+/* Paragraph styling */
+.contact-container p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: black;
+  margin: 15px 0;
+}
+
+/* Link styling */
+.contact-container a {
+  color: rgb(42, 105, 231); /* Blue color for links */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-container a:hover {
+  color: #cb5a14; /* Matches color of h1 on hover */
+}

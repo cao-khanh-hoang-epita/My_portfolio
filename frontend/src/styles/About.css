@@ -1,4 +1,4 @@
-/* src/styles/Home.css */
+/* src/styles/About.css */
 
 body, html {
     margin: 0;
@@ -6,9 +6,9 @@ body, html {
     box-sizing: border-box;
   }
   
-  /* Main background for the home container */
-  .home-container {
-    background-image: url('../bg.jpg');
+  /* Main background for the about container */
+  .about-container {
+    background-image: url('../bg.jpg'); /* Different background for About page */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -41,19 +41,20 @@ body, html {
   .hero-content h1 {
     font-size: 2.75em;
     font-weight: bold;
-    color: #cb5a14; 
+    color: #cb5a14;
     align-self: center;
-    text-align: center; /* Center the text */
-    font-family: 'Merriweather', serif; /* Replace 'YourNavBarFont' with the actual font-family name from the navbar */
+    text-align: center;
+    font-family: 'Merriweather', serif;
   }
-
+  
+  /* Specific h2 styling in hero section */
   .hero-content h2 {
     font-size: 1.4em;
     font-weight: bold;
-    color: rgb(42, 105, 231); /* Change text color to yellow */
+    color: rgb(42, 105, 231);
     align-self: center;
-    text-align: center; /* Center the text */
-    font-family: 'Merriweather', serif; /* Replace 'YourNavBarFont' with the actual font-family name from the navbar */
+    text-align: center;
+    font-family: 'Merriweather', serif;
   }
   
   /* Specific p styling in hero section */
@@ -75,8 +76,8 @@ body, html {
     width: 490px; /* Adjust width to fit better */
     height: auto;
     border-radius: 50%; /* Makes the image circular */
-    border: 5px solid rgb(42, 105, 231); /* Blue border (use any color code you prefer) */
+    border: 5px solid rgb(42, 105, 231); /* Blue border */
     object-fit: cover; /* Ensures the image scales well within the circle */
-    margin-left: 0; /* Remove margin for tight alignment */
+    margin-left: 0;
   }
   

@@ -1,16 +1,14 @@
-// src/pages/About.tsx
-
 import React from 'react';
-import '../styles/About.css';
+import '../styles/Home.css';
 import logo from '../logo.jpg'; // Large version of your logo image
 
-const About: React.FC = () => {
+const Experience: React.FC = () => {
   return (
-    <div className="about-container">
+    <div className="home-container">
       <section className="hero">
         <div className="hero-content">
           <div className="blur-container">
-          <h1>About Me</h1>
+            <h1>About Me</h1>
             <h2>Software Developer | Typescript | Python | Javascript</h2>
             <p>
             After two enriching years of studies and experiences in France, I am on the verge of completing my Bachelor's in Computer Science at EPITA Paris, a journey that has deepened my technical expertise and cultural adaptability. My academic path at EPITA has equipped me with a solid foundation in programming languages and technologies, including Flutter, Dart, Node.js, JavaScript, React, Flask, and Python. Alongside technical skills, I have honed essential soft skills like punctuality, teamwork, and time management, which I value greatly and strive to bring into any work environment.
@@ -31,4 +29,4 @@ const About: React.FC = () => {
   );
 };
 
-export default About;
+export default Experience;
