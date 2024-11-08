@@ -8,7 +8,7 @@ body, html {
   
   /* Main background for the about container */
   .about-container {
-    background-image: url('../bg.jpg'); /* Different background for About page */
+    background-image: url('../bgh.jpg'); /* Different background for About page */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

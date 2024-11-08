@@ -25,7 +25,7 @@ body, html {
   .project-title {
     font-size: 2.5em;
     font-weight: bold;
-    color: #1E90FF; /* Orange color */
+    color: #1E90FF;
     margin: 40px 0 20px; /* Top and bottom margin for spacing */
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -58,11 +58,12 @@ body, html {
     border-radius: 10px 10px 0 0;
     transition: transform 0.3s ease;
   }
-  
+
   .project-card h3 {
     margin: 10px 0;
     font-size: 1.2em;
-    color: #cb5a14;
+    color: #cb5a14; /* Change this to any color you want */
+    font-family: 'Merriweather', serif; /* Optional: font styling */
   }
   
   /* Arrow button styling */
@@ -84,7 +85,7 @@ body, html {
     background: rgba(255, 255, 255, 0.15);
     padding: 15px;
     border-radius: 0 0 10px 10px;
-    color: #333;
+    color: #cb5a14;
     animation: dropdown 0.3s ease-out;
   }
   
@@ -102,7 +103,7 @@ body, html {
   
   .project-details p {
     font-size: 1em;
-    color: #333;
+    color: rgb(46, 233, 239);
     margin: 10px 0;
   }
   

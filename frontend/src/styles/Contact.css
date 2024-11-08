@@ -13,7 +13,7 @@ body, html {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url('../bg4.jpg'); /* Use absolute path if image is in public folder */
+  background-image: url('../bg.jpg'); /* Use absolute path if image is in public folder */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
