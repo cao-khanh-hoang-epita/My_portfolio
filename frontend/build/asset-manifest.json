@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dba607e6.css",
+    "main.js": "/static/js/main.7a5293c2.js",
+    "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
+    "static/media/awsproject.jpg": "/static/media/awsproject.dcb7332c3a787035d9c3.jpg",
+    "static/media/bgh.jpg": "/static/media/bgh.4c2166b921baad4bd2e5.jpg",
+    "static/media/chatappproject.jpg": "/static/media/chatappproject.59d0087a5e87afe9e92c.jpg",
+    "static/media/pythonuberproject.jpg": "/static/media/pythonuberproject.eecea11df94acfd84394.jpg",
+    "static/media/bg.jpg": "/static/media/bg.377d18e5d6a36652a181.jpg",
+    "static/media/bg3.jpg": "/static/media/bg3.d53a594f6b9614878cfa.jpg",
+    "static/media/bg4.jpg": "/static/media/bg4.615115cad933cffa0a5e.jpg",
+    "static/media/logo.jpg": "/static/media/logo.7203b84081cd54e6d1bf.jpg",
+    "index.html": "/index.html",
+    "main.dba607e6.css.map": "/static/css/main.dba607e6.css.map",
+    "main.7a5293c2.js.map": "/static/js/main.7a5293c2.js.map",
+    "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dba607e6.css",
+    "static/js/main.7a5293c2.js"
+  ]
+}
