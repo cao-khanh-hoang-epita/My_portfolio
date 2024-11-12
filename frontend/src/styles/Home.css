@@ -8,7 +8,7 @@ body, html {
 
 /* Main background for the home container */
 .home-container {
-  background-image: url('../bgh.jpg');
+  background-image: url('../bg.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -31,7 +31,15 @@ body, html {
   margin-bottom: 20px;
 }
 
-
+.herop-image h2 {
+  font-size: 1.9em; /* Adjust the size as needed */
+  color: #cb5a14; /* Blue color to match the links */
+  margin-top: 0px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  transition: color 0.3s;
+}
 /* CSS for typing effect container */
 .typing-text {
   font-size: 1.8em;
@@ -67,7 +75,7 @@ body, html {
   padding: 10px 20px;
   font-size: 1em;
   color: white;
-  background-color: #cb5a14;
+  background-color: #1E90FF;
   border: none;
   border-radius: 5px;
   text-decoration: none;

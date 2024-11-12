@@ -10,8 +10,8 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 const Home: React.FC = () => {
   const [displayedText, setDisplayedText] = useState('');
   const text = "Hello, I am a software developer";
-  const downloadCV = "/path/to/CaoKhanhHOANG_cv_28102025.pdf"; // Adjust path as needed
-  const downloadLetter = "/path/to/lettre_de_motivation_Cao_Khanh_HOANG_2025.pdf"; // Adjust path as needed
+  const downloadCV = "../CaoKhanhHOANG_cv_28102025.pdf"; 
+  const downloadLetter = "../lettre_de_motivation_Cao_Khanh_HOANG_2025.pdf"; 
 
   useEffect(() => {
     let index = 0;
@@ -42,8 +42,8 @@ const Home: React.FC = () => {
       <h1 className="typing-text">{displayedText}</h1>
       <div className="herop-image">
         <img src={logo} alt="Hoang Cao Khanh" />
+        <h2>Let's Connect !!</h2>
       </div>
-
       <div className="social-links">
         <a href="mailto:hoangcaokhanhn2004@gmail.com" className="social-btn" title="Email">
           <FontAwesomeIcon icon={faEnvelope} />

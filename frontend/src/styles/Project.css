@@ -8,7 +8,7 @@ body, html {
   
   /* Main background for the project container */
   .project-container {
-    background-image: url('../bgh.jpg'); /* Background image for Project page */
+    background-image: url('../bg.jpg'); /* Background image for Project page */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
