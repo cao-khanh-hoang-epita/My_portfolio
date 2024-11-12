@@ -6,7 +6,6 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import Projects from './pages/Projects';
-import Experience from './pages/Experience';
 import './App.css';
 import logo from './logo.jpg'; // Import the local image file
 
@@ -21,13 +20,12 @@ const App: React.FC = () => {
             className="logo"
           />
         </div>
-        <div className="navbar-center">
+        <div className="navbar-left">
           <span className="name">HOANG CAO KHANH</span>
         </div>
         <div className="navbar-right">
           <Link to="/" className="nav-link">Home</Link>
           <Link to="/about" className="nav-link">About</Link>
-          <Link to="/experience" className="nav-link">Exeperience</Link>
           <Link to="/Projects" className="nav-link">Projects</Link>
           <Link to="/contact" className="nav-link">Contact</Link>
         </div>
@@ -36,7 +34,6 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/experience" element={<Experience />} />
           <Route path="/Projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

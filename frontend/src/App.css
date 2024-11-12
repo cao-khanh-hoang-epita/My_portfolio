@@ -37,13 +37,6 @@ body, html {
   object-fit: cover; /* Ensures the image scales well within the circle */
 }
 
-.navbar-center {
-  flex-grow: 1;
-  display: flex;
-  justify-content: center;
-  margin-left: 85px;
-}
-
 .name {
   font-size: 2em;
   font-weight: bold;
