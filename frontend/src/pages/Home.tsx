@@ -10,8 +10,8 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 const Home: React.FC = () => {
   const [displayedText, setDisplayedText] = useState('');
   const text = "Hello, I am a software developer";
-  const downloadCV = "../CaoKhanhHOANG_cv_28102025.pdf"; 
-  const downloadLetter = "../lettre_de_motivation_Cao_Khanh_HOANG_2025.pdf"; 
+  const downloadCV = "/CaoKhanhHOANG_cv_28102025.pdf"; 
+  const downloadLetter = "/lettredemotivation.pdf"; 
 
   useEffect(() => {
     let index = 0;
